@@ -1,0 +1,34 @@
+{
+    "name": "GameInput",
+    "maps": [
+        {
+            "name": "Archer",
+            "id": "5a2e62ea-d266-45ef-82fa-e982ae88272c",
+            "actions": [
+                {
+                    "name": "Aim",
+                    "type": "Button",
+                    "id": "0ae41be6-1cb0-4bd7-a956-da6056a9f4b9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "822ffc4a-b049-448f-aac5-ccbffe9fbbed",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
