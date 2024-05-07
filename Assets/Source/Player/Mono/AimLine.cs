@@ -28,12 +28,6 @@ namespace Source.Player.Mono
             Vector2 startPosition = (Vector2)_transform.position;
             Vector2 startPoint = Vector2.zero;
             Vector2 currentPoint = startPoint;
-            RaycastHit2D raycastHit2D =
-                Physics2D.Raycast(startPoint, direction, direction.magnitude * aimDistance, 1 << 6);
-            if (raycastHit2D)
-            {
-                
-            }
 
             int i = 0;
             while (Mathf.Abs(startPoint.x-currentPoint.x)<aimDistance)
